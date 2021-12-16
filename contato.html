@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body >
+    <nav>
+        <img src="pousada.jpeg" alt="Logo" width="170" height="120">
+        <a href="index.html">Home</a>
+        
+        <ul>
+            <li><a href="sobre.html">Nossa Pousada</a></li>
+            <li><a href="imagens.html">Algumas Imagens</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <a href="#" class="circle-icons fa fa-facebook"></a>
+        <a href="#" class="circle-icons fa fa-instagram"></a>
+    </nav><br>
+    <div>
+        <form name="f_con" method="post" action="contato.php">
+            <div id="corpo_cont">
+                <h1>Fale Conosco</h1>
+                <div class="campo">
+                    <label>Nome * <br></label>
+                    <input type="text" name="f_nome" id="nome" required="required">
+                </div>
+                <div class="campo">
+                    <label>Telefone * <br></label>
+                    <input type="tel" name="f_tel">
+                </div>
+                <div class="campo">
+                    <label>E-mail * <br></label>
+                    <input type="text" name="f_email" id="email" required="required">
+                </div>
+                <div class="campo">
+                    <label>Deixe sua mensagem * <br></label>
+                    <textarea name="f_msg" id="" cols="30" rows="10"></textarea>
+                </div>
+                <h5>Campos Obrigatórios *</h5>
+                <button type="submit" class="botao" name="submit">Enviar</button>
+            </div>
+        </form>
+    </div><br><br><br><br><br><br>
+</body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+<style type='text/css'>
+.circle-icons {
+padding: 10px; /* espaçamento */
+font-size: 18px; /* tamanho do icone */
+width: 18px; /* tamanho do fundo */
+text-align: center;
+text-decoration: none;
+margin: 5px 2px; /* espaçamento entre eles */
+border-radius: 50%;  
+background: #f0e9e9; /* cor do fundo */
+color: rgb(0, 0, 0); /*cor do icone */
+}
+    
+.circle-icons:hover {
+background: #ccc; /*  cor de fundo com mouse encima */
+color: rgb(0, 0, 0);  /* cor do icone com mouse encima */
+opacity: 0.7;
+}
+
+body {
+background-color: rgb(86, 212, 135);
+}
+</style>
+</html>

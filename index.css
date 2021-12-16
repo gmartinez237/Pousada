@@ -1,0 +1,84 @@
+html {
+min-height: 100%;
+}
+    
+    
+img.pao {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 10px;
+}
+
+img.mergulho {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 10px;    
+}
+    
+nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 0;
+}
+    
+nav a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: 800;
+font-size: 22px;
+text-align: center;
+padding: 5px;
+}
+    
+nav ul {
+display: flex;
+flex-direction: row;
+float: right;   
+list-style: none;
+padding: 0;
+width: 100%;
+font-size: 18px;
+}
+    
+nav ul li {
+text-align: center;
+width: 100%;
+}
+    
+nav ul li a {
+display: inline-block;
+padding: 10px;
+width: 100%;
+text-decoration: none;
+}
+    
+td{
+padding: 20px;
+}
+    
+section#zaza {
+text-align: center;
+}
+    
+    /*.linha {
+    border-bottom: solid 1px rgb(86, 212, 135); /*linha que divide o cabeçalho do corpo da tabela
+    }*/
+    
+    /*.rodape2 {
+    border-bottom: solid 0.5px rgb(86, 212, 135); /*linha que divide o cabeçalho do corpo da tabela*/
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }*/
+    
+    /*218, 90, 182 footer*/
+    
+/*https://media-cdn.tripadvisor.com/media/photo-s/18/a6/fc/41/casa-el-paraiso.jpg*/ 
+/*https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg*/
+
